@@ -14,7 +14,13 @@ export const UlContainer = styled.ul`
   a {
     color:white;
   }
+  a:hover {
+    color: #02BE58;
+  }
   img {
     padding-top: 60px; 
+  }
+  .green {
+    color: #02BE58;
   }
 `;
