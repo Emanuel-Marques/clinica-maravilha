@@ -13,7 +13,7 @@ export function Header(){
           <li><NavLink to="/doutor">Doutor</NavLink></li>
           <li><img src={img} /></li>
           <li><NavLink to="/departamentos">Departamentos</NavLink></li>
-          <li><NavLink to="">Blogue</NavLink></li>
+          <li><NavLink to="/blogue">Blogue</NavLink></li>
           <li><NavLink to="">Contacto</NavLink></li>
           <li><NavLink to="" className="green"><IoSearch /></NavLink></li>
           <li><NavLink to="" className="green">Conecte-se</NavLink></li>

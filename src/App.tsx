@@ -5,6 +5,7 @@ import { NotFound } from './components/notFound/notFound';
 import { Sobre } from './pages/sobre/Sobre';
 import { Departamentos } from './pages/departamentos/Departamentos';
 import { Doutor } from './pages/doutor/Doutor';
+import { Blogue } from './pages/blogue/Blogue';
 
 function App() {
   return(
@@ -16,6 +17,7 @@ function App() {
         <Route path='/sobre' element={ <Sobre /> } />
         <Route path='/departamentos' element={ <Departamentos /> } />
         <Route path='/doutor' element={ <Doutor /> } />
+        <Route path='/blogue' element={ <Blogue /> } />
       </Route>
       <Route
         path='/*'
