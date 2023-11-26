@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router'
 import './App.css'
 import { Header } from './components/header/Header';
+import { NotFound } from './components/notFound/notFound';
 
 function App() {
   return(
@@ -10,6 +11,10 @@ function App() {
         element={ <Header /> }>
 
       </Route>
+      <Route
+        path='/*'
+        element={ <NotFound /> }
+      />
     </Routes>
   );
 }
