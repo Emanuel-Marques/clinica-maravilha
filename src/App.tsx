@@ -6,6 +6,7 @@ import { Sobre } from './pages/sobre/Sobre';
 import { Departamentos } from './pages/departamentos/Departamentos';
 import { Doutor } from './pages/doutor/Doutor';
 import { Blogue } from './pages/blogue/Blogue';
+import { Contacto } from './pages/contacto/Contacto';
 
 function App() {
   return(
@@ -18,6 +19,7 @@ function App() {
         <Route path='/departamentos' element={ <Departamentos /> } />
         <Route path='/doutor' element={ <Doutor /> } />
         <Route path='/blogue' element={ <Blogue /> } />
+        <Route path='/contacto' element={ <Contacto /> } />
       </Route>
       <Route
         path='/*'
