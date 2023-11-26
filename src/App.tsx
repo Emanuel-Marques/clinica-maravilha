@@ -4,6 +4,7 @@ import { Layout } from './components/Layout';
 import { NotFound } from './components/notFound/notFound';
 import { Sobre } from './pages/sobre/Sobre';
 import { Departamentos } from './pages/departamentos/Departamentos';
+import { Doutor } from './pages/doutor/Doutor';
 
 function App() {
   return(
@@ -14,6 +15,7 @@ function App() {
       >
         <Route path='/sobre' element={ <Sobre /> } />
         <Route path='/departamentos' element={ <Departamentos /> } />
+        <Route path='/doutor' element={ <Doutor /> } />
       </Route>
       <Route
         path='/*'

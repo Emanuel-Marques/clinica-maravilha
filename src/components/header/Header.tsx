@@ -10,7 +10,7 @@ export function Header(){
         <UlContainer>
           <li><NavLink to="/">Início</NavLink></li>
           <li><NavLink to="/sobre">Sobre</NavLink></li>
-          <li><NavLink to="">Doutor</NavLink></li>
+          <li><NavLink to="/doutor">Doutor</NavLink></li>
           <li><img src={img} /></li>
           <li><NavLink to="/departamentos">Departamentos</NavLink></li>
           <li><NavLink to="">Blogue</NavLink></li>
