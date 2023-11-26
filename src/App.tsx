@@ -1,15 +1,17 @@
 import { Routes, Route } from 'react-router'
 import './App.css'
-import { Header } from './components/header/Header';
+import { Layout } from './components/Layout';
 import { NotFound } from './components/notFound/notFound';
+import { Sobre } from './pages/sobre/Sobre';
 
 function App() {
   return(
     <Routes>
       <Route
         path="/" 
-        element={ <Header /> }>
-
+        element={ <Layout /> }
+      >
+        <Route path='/sobre' element={ <Sobre /> } />
       </Route>
       <Route
         path='/*'

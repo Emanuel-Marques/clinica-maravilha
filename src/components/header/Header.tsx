@@ -2,23 +2,21 @@ import { UlContainer } from "./style";
 import { NavLink } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
 import img from '../../assets/logo.png';
-import { Footer } from "../footer/Footer";
 
 export function Header(){
   return(
-    <>
+    <nav>
       <UlContainer>
-        <li><NavLink>Início</NavLink></li>
-        <li><NavLink>Sobre</NavLink></li>
-        <li><NavLink>Doutor</NavLink></li>
-        <li><img src={img} alt="" /></li>
-        <li><NavLink>Departamentos</NavLink></li>
-        <li><NavLink>Blogue</NavLink></li>
-        <li><NavLink>Contacto</NavLink></li>
-        <li><NavLink className="green"><IoSearch /></NavLink></li>
-        <li><NavLink className="green">Conecte-se</NavLink></li>
+        <li><NavLink to="/">Início</NavLink></li>
+        <li><NavLink to="/sobre">Sobre</NavLink></li>
+        <li><NavLink to="">Doutor</NavLink></li>
+        <li><img src={img} /></li>
+        <li><NavLink to="">Departamentos</NavLink></li>
+        <li><NavLink to="">Blogue</NavLink></li>
+        <li><NavLink to="">Contacto</NavLink></li>
+        <li><NavLink to="" className="green"><IoSearch /></NavLink></li>
+        <li><NavLink to="" className="green">Conecte-se</NavLink></li>
       </UlContainer>
-      <Footer />
-    </>
+    </nav>
   )
 }
