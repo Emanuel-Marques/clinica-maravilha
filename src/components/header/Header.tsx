@@ -9,12 +9,12 @@ export function Header(){
       <nav>
         <UlContainer>
           <li><NavLink to="/">Início</NavLink></li>
-          <li><NavLink to="/sobre">Sobre</NavLink></li>
-          <li><NavLink to="/doutor">Doutor</NavLink></li>
+          <li><NavLink to="/clinica-maravilha/sobre">Sobre</NavLink></li>
+          <li><NavLink to="/clinica-maravilha/doutor">Doutor</NavLink></li>
           <li><img src={img} /></li>
-          <li><NavLink to="/departamentos">Departamentos</NavLink></li>
-          <li><NavLink to="/blogue">Blogue</NavLink></li>
-          <li><NavLink to="/contacto">Contacto</NavLink></li>
+          <li><NavLink to="/clinica-maravilha/departamentos">Departamentos</NavLink></li>
+          <li><NavLink to="/clinica-maravilha/blogue">Blogue</NavLink></li>
+          <li><NavLink to="/clinica-maravilha/contacto">Contacto</NavLink></li>
           <li><NavLink to="" className="green"><IoSearch /></NavLink></li>
           <li><NavLink to="" className="green">Conecte-se</NavLink></li>
         </UlContainer>

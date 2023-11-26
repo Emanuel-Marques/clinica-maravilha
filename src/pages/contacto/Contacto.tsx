@@ -4,7 +4,7 @@ import user from '../../assets/ejm.png';
 
 export function Contacto() {
   return(
-    <>
+    <div className="green-bg">
       <GlobalStyle />
       <MainContent>
         <FormContent>
@@ -32,7 +32,7 @@ export function Contacto() {
           </Card>
         </div>
       </MainContent>
-      <hr />
+        <hr />
       <FootContent>
         <section>
           <p>Precisa de um médico para check-up</p>
@@ -40,6 +40,6 @@ export function Contacto() {
         </section>
         <button>Marcar consulta</button>
       </FootContent>
-    </>
+    </div>
   );
 }

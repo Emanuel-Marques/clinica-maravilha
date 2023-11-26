@@ -7,20 +7,22 @@ import { Departamentos } from './pages/departamentos/Departamentos';
 import { Doutor } from './pages/doutor/Doutor';
 import { Blogue } from './pages/blogue/Blogue';
 import { Contacto } from './pages/contacto/Contacto';
+import { All } from './pages';
 
 function App() {
   return(
     <Routes>
       <Route
-        path="/" 
+        path="/clinica-maravilha" 
         element={ <Layout /> }
       >
-        <Route path='/sobre' element={ <Sobre /> } />
-        <Route path='/departamentos' element={ <Departamentos /> } />
-        <Route path='/doutor' element={ <Doutor /> } />
-        <Route path='/blogue' element={ <Blogue /> } />
-        <Route path='/contacto' element={ <Contacto /> } />
+        <Route path='/clinica-maravilha/sobre' element={ <Sobre /> } />
+        <Route path='/clinica-maravilha/departamentos' element={ <Departamentos /> } />
+        <Route path='/clinica-maravilha/doutor' element={ <Doutor /> } />
+        <Route path='/clinica-maravilha/blogue' element={ <Blogue /> } />
+        <Route path='/clinica-maravilha/contacto' element={ <Contacto /> } />
       </Route>
+      <Route path='/' element={ <All /> } />
       <Route
         path='/*'
         element={ <NotFound /> }

@@ -1,12 +1,9 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-  body {
-    background-color: #02BE58;
-  }
   hr {
     margin-top: 50px;
-    border: 1px solid #595d; 
+    border: 1px solid #595d;
   }
   button {
     background-color: #303137;
@@ -21,10 +18,14 @@ export const GlobalStyle = createGlobalStyle`
     background-color: white;
     color: #303137;
   }
+  .green-bg {
+    background-color: #02BE58;
+  }
 `;
 
 export const FootContent = styled.footer`
   display: flex;
+  background-color: #02BE58;
   justify-content: space-between;
   align-items: baseline;
   padding: 40px;
@@ -45,6 +46,7 @@ export const FootContent = styled.footer`
 `
 
 export const MainContent = styled.main`
+  background-color: #02BE58;  
   display: flex;
   justify-content: space-around;
   color: white;
