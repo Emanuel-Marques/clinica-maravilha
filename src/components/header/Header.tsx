@@ -5,18 +5,21 @@ import img from '../../assets/logo.png';
 
 export function Header(){
   return(
-    <nav>
-      <UlContainer>
-        <li><NavLink to="/">Início</NavLink></li>
-        <li><NavLink to="/sobre">Sobre</NavLink></li>
-        <li><NavLink to="">Doutor</NavLink></li>
-        <li><img src={img} /></li>
-        <li><NavLink to="">Departamentos</NavLink></li>
-        <li><NavLink to="">Blogue</NavLink></li>
-        <li><NavLink to="">Contacto</NavLink></li>
-        <li><NavLink to="" className="green"><IoSearch /></NavLink></li>
-        <li><NavLink to="" className="green">Conecte-se</NavLink></li>
-      </UlContainer>
-    </nav>
+    <>
+      <nav>
+        <UlContainer>
+          <li><NavLink to="/">Início</NavLink></li>
+          <li><NavLink to="/sobre">Sobre</NavLink></li>
+          <li><NavLink to="">Doutor</NavLink></li>
+          <li><img src={img} /></li>
+          <li><NavLink to="/departamentos">Departamentos</NavLink></li>
+          <li><NavLink to="">Blogue</NavLink></li>
+          <li><NavLink to="">Contacto</NavLink></li>
+          <li><NavLink to="" className="green"><IoSearch /></NavLink></li>
+          <li><NavLink to="" className="green">Conecte-se</NavLink></li>
+        </UlContainer>
+      </nav>
+
+    </>
   )
 }

@@ -3,6 +3,7 @@ import './App.css'
 import { Layout } from './components/Layout';
 import { NotFound } from './components/notFound/notFound';
 import { Sobre } from './pages/sobre/Sobre';
+import { Departamentos } from './pages/departamentos/Departamentos';
 
 function App() {
   return(
@@ -12,6 +13,7 @@ function App() {
         element={ <Layout /> }
       >
         <Route path='/sobre' element={ <Sobre /> } />
+        <Route path='/departamentos' element={ <Departamentos /> } />
       </Route>
       <Route
         path='/*'
