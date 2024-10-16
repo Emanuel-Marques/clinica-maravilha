@@ -3,12 +3,13 @@
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [GATSBY__BADGE]: https://img.shields.io/badge/Gatsby-7026b9?style=for-the-badge&logo=gatsby
+[PROJECT__URL]: https://clinica-maravilha.vercel.app/
 
 <h1 align="center" style="font-weight: bold;"> Clínica Maravilha - website 💻</h1>
 
-<p align="center"> ![typescript][TYPESCRIPT__BADGE] </p>
-<p align="center"> ![react][REACT__BADGE] </p>
-<p align="center"> ![gatsby][GATSBY__BADGE] </p>
+![typescript][TYPESCRIPT__BADGE] 
+![react][REACT__BADGE]
+![gatsby][GATSBY__BADGE]
 
 <p align="center">
  <a href="#about">Sobre</a> • 
@@ -30,8 +31,6 @@ Este projeto foi desenvolvido para praticar minhas habilidades em React e é uma
 
 <h2 id="started">🚀 Começando</h2>
 
-Here you describe how to run your project locally
-
 <h3>Pré-requisitos</h3>
 
 Pré-requisitos necessários para executar o projeto:
@@ -49,7 +48,7 @@ git clone https://github.com/Emanuel-Marques/clinica-maravilha.git
 
 <h3>Executando a Aplicação</h3>
 
-Para executar o a aplicação sigo os seguintes passos: 
+Para executar o a aplicação siga os seguintes passos: 
 
 ```bash
 cd clinica-maravilha
