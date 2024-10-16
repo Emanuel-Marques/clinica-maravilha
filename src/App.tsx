@@ -7,7 +7,7 @@ import { Departamentos } from './pages/departamentos/Departamentos';
 import { Doutor } from './pages/doutor/Doutor';
 import { Blogue } from './pages/blogue/Blogue';
 import { Contacto } from './pages/contacto/Contacto';
-import { All } from './pages';
+import { All } from './pages/All';
 
 function App() {
   return(
