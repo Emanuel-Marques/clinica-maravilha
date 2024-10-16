@@ -11,11 +11,11 @@
 <p align="center"> ![gatsby][GATSBY__BADGE] </p>
 
 <p align="center">
- <a href="#about">About</a> • 
- <a href="#started">Getting Started</a> • 
-  <a href="#started">App Routes</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+ <a href="#about">Sobre</a> • 
+ <a href="#started">Começando</a> • 
+  <a href="#started">Rotas da aplicação</a> • 
+  <a href="#colab">Colaboradores</a> •
+ <a href="#contribute">Contribuição</a>
 </p>
 
 <p align="center">
